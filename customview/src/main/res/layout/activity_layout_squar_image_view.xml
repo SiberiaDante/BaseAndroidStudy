@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hencoder.layout1.LayoutSquarImageViewActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.siberiadante.customview.hencoder.layout1.SquareImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorYellow"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/ll_content">
+
+        <com.siberiadante.customview.hencoder.layout1.TestView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:max="100"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:max="100"
+        android:progress="10"
+        app:layout_constraintBottom_toTopOf="@id/seek_bar_height" />
+</android.support.constraint.ConstraintLayout>
