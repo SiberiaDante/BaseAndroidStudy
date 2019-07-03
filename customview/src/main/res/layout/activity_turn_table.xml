@@ -8,8 +8,13 @@
     tools:context=".view.TurnTableActivity">
 
 
-    <com.siberiadante.customview.view.TurnTableView
+    <!--<com.siberiadante.customview.view.TurnTableView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="400dp"-->
+    <!--android:background="@color/colorGray" />-->
+
+    <com.siberiadante.customview.view.TurnAwardView
+        android:id="@+id/turnAwardView"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:background="@color/colorGray" />
+        android:layout_height="wrap_content" />
 </LinearLayout>
