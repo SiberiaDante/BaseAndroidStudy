@@ -7,6 +7,9 @@ prototype
 factory
     simple:简单工厂模式
     abstractf:抽象工厂模式
+    
+singleton
+    
 ```
 
 ## 设计模式

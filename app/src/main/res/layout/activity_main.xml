@@ -13,10 +13,9 @@
       android:layout_height="wrap_content">
       <Button
           android:layout_width="match_parent"
-          android:text="滑动冲突"
-          android:id="@+id/btn_1"
+          android:text="GIF倒序播放"
+          android:id="@+id/btn1"
           android:layout_height="wrap_content" />
-
   </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

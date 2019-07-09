@@ -1,15 +1,13 @@
-package com.siberiadante.bas.widget;
+package com.siberiadante.widget;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.Scroller;
 
 /**
