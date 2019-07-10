@@ -1,8 +1,6 @@
-package com.siberiadante.designpattern.builder.simplebuilder;
+package com.siberiadante.designpattern.builder.simplebuilder.demo01;
 
-/**
- * create date: 2018/8/2
- */
+
 public class Directer {
     private Builder builder = null;
 

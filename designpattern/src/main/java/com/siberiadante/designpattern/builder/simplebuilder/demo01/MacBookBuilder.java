@@ -1,27 +1,11 @@
-package com.siberiadante.designpattern.builder.simplebuilder;
+package com.siberiadante.designpattern.builder.simplebuilder.demo01;
 
-import android.os.Build;
-import android.util.Log;
 
-/**
- * create date: 2018/7/30
- * update date: 2018/7/30
- * create by SiberiaDante
- * email: 2654828081@qq.com
- * github: https://github.com/SiberiaDante
- * blog: http://www.cnblogs.com/shen-hua/
- * describe:
- */
 public class MacBookBuilder extends Builder {
     private Computer macBookComputer;
 
     public MacBookBuilder() {
         macBookComputer = new MacBookComputer();
-    }
-
-    public MacBookBuilder setDisplay(String display) {
-        buildDisplay(display);
-        return this;
     }
 
     @Override
@@ -41,8 +25,13 @@ public class MacBookBuilder extends Builder {
 
     @Override
     public Computer create() {
-        Log.e("Build Test", macBookComputer.toString());
+        System.out.println(macBookComputer.toString());
         return macBookComputer;
+    }
+
+    public MacBookBuilder setDisplay(String display) {
+        buildDisplay(display);
+        return this;
     }
 
     public MacBookBuilder setKeyboard(String keyboard) {
