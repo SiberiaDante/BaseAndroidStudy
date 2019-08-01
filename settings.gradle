@@ -1,1 +1,1 @@
-include ':app', ':customview', ':designpattern'
+include ':app', ':customview', ':designpattern', ':practiceopengl'

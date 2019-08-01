@@ -26,3 +26,15 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+ext {
+    androidxAppcompat = '1.1.0-rc01'
+    androidxMaterial = '1.1.0-alpha09'
+
+    arouterCompiler = '1.2.2'
+    compileSdkVersion = 29
+    targetSdkVersion = 29
+    minSdkVersion = 21
+    multiDexEnabled = true
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
