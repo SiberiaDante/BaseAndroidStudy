@@ -30,11 +30,11 @@ public class Practice6DrawLineView extends View {
         paint.setStrokeWidth(20);
 
         int widthPixels = getResources().getDisplayMetrics().widthPixels;
-        int heightPixels = Utils.getScreenHeightPx();
+        int heightPixels =getResources().getDisplayMetrics().heightPixels;
         int actionBarPx = Utils.getActionBarSize(context);
         int statusBarHeight = Utils.getStatuBarHeight();
         float tabHeight = getResources().getDimension(R.dimen.tab_bar_height);
-        centerX = widthPixels / 2;
+        centerX = widthPixels / 2f;
         centerY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4;
     }
 

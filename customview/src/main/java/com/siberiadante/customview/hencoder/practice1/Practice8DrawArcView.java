@@ -48,7 +48,7 @@ public class Practice8DrawArcView extends View {
         int actionBarPx = Utils.getActionBarSize(context);
         int statusBarHeight = Utils.getStatuBarHeight();
         float tabHeight = getResources().getDimension(R.dimen.tab_bar_height);
-        centerX = widthPixels / 2;
+        centerX = widthPixels / 2f;
         centerY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4;
     }
 

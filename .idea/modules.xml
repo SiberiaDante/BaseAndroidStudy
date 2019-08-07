@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BaseAndroidStudy.iml" filepath="$PROJECT_DIR$/BaseAndroidStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTestLib/JavaTestLib.iml" filepath="$PROJECT_DIR$/JavaTestLib/JavaTestLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />

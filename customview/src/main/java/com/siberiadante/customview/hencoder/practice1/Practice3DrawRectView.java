@@ -5,12 +5,15 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import com.siberiadante.customview.R;
 import com.siberiadante.customview.util.Utils;
 
 public class Practice3DrawRectView extends View {
+
+    public static final String TAG = Practice3DrawRectView.class.getSimpleName();
     private int widthPixels;
     private int heightPixels;
     private int actionBarPx;
@@ -26,6 +29,7 @@ public class Practice3DrawRectView extends View {
     private void init(Context context) {
         mPaint = new Paint();
         widthPixels = getResources().getDisplayMetrics().widthPixels;
+        Log.d(TAG, "init: ---:" + widthPixels);
         heightPixels = Utils.getScreenHeightPx();
         actionBarPx = Utils.getActionBarSize(context);
         statusBarHeight = Utils.getStatuBarHeight();
@@ -44,10 +48,17 @@ public class Practice3DrawRectView extends View {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+//        widthPixels = getMeasuredWidth();
+//        Log.d(TAG, "onMeasure: ---:" + widthPixels);
+    }
+
+    @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        float radius = widthPixels / 4;
-        float centerX = widthPixels / 2;
+        float radius = widthPixels / 4f;
+        float centerX = widthPixels / 2f;
         float centerY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4;
         float left = centerX - radius;
         float top = centerY - radius;

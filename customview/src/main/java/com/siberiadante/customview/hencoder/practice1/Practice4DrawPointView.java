@@ -53,7 +53,7 @@ public class Practice4DrawPointView extends View {
         paint2.setStrokeCap(Paint.Cap.SQUARE);
 
         widthPixels = getResources().getDisplayMetrics().widthPixels;
-        heightPixels = Utils.getScreenHeightPx();
+        heightPixels = getResources().getDisplayMetrics().heightPixels;
         actionBarPx = Utils.getActionBarSize(context);
         statusBarHeight = Utils.getStatuBarHeight();
         tabHeight = getResources().getDimension(R.dimen.tab_bar_height);

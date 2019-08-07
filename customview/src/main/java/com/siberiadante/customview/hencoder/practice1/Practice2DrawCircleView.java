@@ -73,11 +73,11 @@ public class Practice2DrawCircleView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        float radius = widthPixels / 4 / 2;
-        float leftCenterX = widthPixels / 4;
-        float rightCenterX = widthPixels / 4 * 3;
-        float topCenterY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4 / 2;
-        float bottomCenterY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4 / 2 * 3;
+        float radius = widthPixels / 4f / 2f;
+        float leftCenterX = widthPixels / 4f;
+        float rightCenterX = widthPixels / 4f * 3f;
+        float topCenterY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4f / 2f;
+        float bottomCenterY = (heightPixels - statusBarHeight - actionBarPx - tabHeight) / 4f / 2f * 3f;
         Log.d(TAG, "onDraw: radius=" + radius);
         Log.d(TAG, "onDraw: leftCenterX=" + leftCenterX);
         Log.d(TAG, "onDraw: rightCenterX=" + rightCenterX);
