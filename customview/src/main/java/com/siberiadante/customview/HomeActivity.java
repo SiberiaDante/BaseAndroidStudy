@@ -6,16 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.siberiadante.customview.hencoder.HenCoderActivity;
-import com.siberiadante.customview.hencoder.Practice1Activity;
-import com.siberiadante.customview.hencoder.Practice2Activity;
-import com.siberiadante.customview.hencoder.Practice3Activity;
-import com.siberiadante.customview.hencoder.Practice4Activity;
-import com.siberiadante.customview.hencoder.Practice5Activity;
-import com.siberiadante.customview.hencoder.Practice6Activity;
-import com.siberiadante.customview.hencoder.Practice7Activity;
 import com.siberiadante.customview.hencoder.layout1.LayoutSquarImageViewActivity;
 import com.siberiadante.customview.radarview.RadarViewActivity;
-import com.siberiadante.customview.view.TurnTableActivity;
+import com.siberiadante.customview.turntableview.TurnTableActivity;
 import com.siberiadante.customview.widget.foldtext.FoldTextViewActivity;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {

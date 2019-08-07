@@ -1,4 +1,4 @@
-package com.siberiadante.customview.view;
+package com.siberiadante.customview.turntableview;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -13,7 +13,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 
-import com.siberiadante.customview.R;
+import com.siberiadante.customview.turntableview.model.TurnItemModel;
 
 import java.util.List;
 

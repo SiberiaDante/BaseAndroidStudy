@@ -1,4 +1,4 @@
-package com.siberiadante.customview.view;
+package com.siberiadante.customview.turntableview;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -14,6 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.siberiadante.customview.R;
+import com.siberiadante.customview.turntableview.model.TurnItemModel;
 
 import java.util.List;
 

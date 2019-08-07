@@ -1,10 +1,11 @@
-package com.siberiadante.customview.view;
+package com.siberiadante.customview.turntableview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.siberiadante.customview.R;
+import com.siberiadante.customview.turntableview.model.TurnItemModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,13 +13,13 @@ import java.util.List;
 public class TurnTableActivity extends AppCompatActivity {
 
     private TurnAwardView turnAwardView;
+    private List<TurnItemModel> turnItemModels = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_turn_table);
         turnAwardView = findViewById(R.id.turnAwardView);
-        List<TurnItemModel> turnItemModels = new ArrayList<>();
         turnItemModels.add(new TurnItemModel("现金奖0", 10));
         turnItemModels.add(new TurnItemModel("现金奖1", 20));
         turnItemModels.add(new TurnItemModel("现金奖2", 30));
@@ -32,20 +33,23 @@ public class TurnTableActivity extends AppCompatActivity {
     }
 
     private void start() {
-        turnAwardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                turnAwardView.startRotate();
-            }
-        });
+//        turnAwardView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                turnAwardView.startRotate();
+//            }
+//        });
         turnAwardView.setListener(new TurnAwardView.TurnAwardListener() {
             @Override
             public void start() {
-
+                //作弊，指定转盘结束的位置
+                turnAwardView.updateTurnAwardView(4);
+                turnAwardView.startRotate();
             }
 
             @Override
             public void end() {
+//                turnAwardView.updateTurnAwardView(turnItemModels);
             }
         });
     }

@@ -1,4 +1,4 @@
-package com.siberiadante.customview.view;
+package com.siberiadante.customview.turntableview;
 
 import android.annotation.TargetApi;
 import android.content.Context;

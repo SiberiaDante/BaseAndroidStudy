@@ -27,7 +27,7 @@
         <activity android:name=".hencoder.layout1.LayoutSquarImageViewActivity" />
         <activity android:name=".hencoder.HenCoderActivity" />
         <activity android:name=".radarview.RadarViewActivity" />
-        <activity android:name=".view.TurnTableActivity"></activity>
+        <activity android:name=".turntableview.TurnTableActivity"></activity>
     </application>
 
 </manifest>

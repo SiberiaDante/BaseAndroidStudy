@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".view.TurnTableActivity">
+    tools:context=".turntableview.TurnTableActivity">
 
 
-    <!--<com.siberiadante.customview.view.TurnTableView-->
+    <!--<com.siberiadante.customview.turntableview.TurnTableView-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="400dp"-->
     <!--android:background="@color/colorGray" />-->
 
-    <com.siberiadante.customview.view.TurnAwardView
+    <com.siberiadante.customview.turntableview.TurnAwardView
         android:id="@+id/turnAwardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.siberiadante.customview.R;
-import com.siberiadante.customview.hencoder.layout1.LayoutSquarImageViewActivity;
-import com.siberiadante.customview.widget.foldtext.FoldTextViewActivity;
 
 public class HenCoderActivity extends AppCompatActivity implements View.OnClickListener {
 

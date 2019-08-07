@@ -31,7 +31,7 @@ public class Practice8DrawArcView extends View {
         paint2 = new Paint();
         rectF = new RectF();
 
-        paint.setStyle(Paint.Style.FILL);
+        paint.setStyle(Paint.Style.FILL_AND_STROKE);
         paint.setColor(Color.BLACK);
         paint.setAntiAlias(true);
 
@@ -39,12 +39,12 @@ public class Practice8DrawArcView extends View {
         paint1.setColor(Color.BLACK);
         paint1.setAntiAlias(true);
 
-        paint2.setStyle(Paint.Style.FILL);
+        paint2.setStyle(Paint.Style.FILL_AND_STROKE);
         paint2.setColor(Color.RED);
         paint2.setAntiAlias(true);
 
         int widthPixels = getResources().getDisplayMetrics().widthPixels;
-        int heightPixels = Utils.getScreenHeightPx();
+        int heightPixels = getResources().getDisplayMetrics().heightPixels;
         int actionBarPx = Utils.getActionBarSize(context);
         int statusBarHeight = Utils.getStatuBarHeight();
         float tabHeight = getResources().getDimension(R.dimen.tab_bar_height);
