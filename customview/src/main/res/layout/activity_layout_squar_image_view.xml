@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.siberiadante.customview.hencoder.layout1.SquareImageView
+        <com.dante.customview.hencoder.layout1.SquareImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@color/colorPrimary" />
@@ -30,7 +30,7 @@
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@id/ll_content">
 
-        <com.siberiadante.customview.hencoder.layout1.TestView
+        <com.dante.customview.hencoder.layout1.TestView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary" />

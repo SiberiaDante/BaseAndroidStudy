@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.siberiadante.customview">
+    package="com.dante.customview">
 
     <application
         android:allowBackup="true"
@@ -9,25 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
+        <activity android:name="com.dante.customview.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".hencoder.Practice1Activity" />
-        <activity android:name=".hencoder.Practice2Activity" />
-        <activity android:name=".hencoder.Practice3Activity" />
-        <activity android:name=".hencoder.Practice4Activity" />
-        <activity android:name=".hencoder.Practice5Activity" />
-        <activity android:name=".hencoder.Practice6Activity" />
-        <activity android:name=".hencoder.Practice7Activity" />
-        <activity android:name=".widget.foldtext.FoldTextViewActivity" />
-        <activity android:name=".hencoder.layout1.LayoutSquarImageViewActivity" />
-        <activity android:name=".hencoder.HenCoderActivity" />
-        <activity android:name=".radarview.RadarViewActivity" />
-        <activity android:name=".turntableview.TurnTableActivity"></activity>
+        <activity android:name="com.dante.customview.hencoder.Practice1Activity" />
+        <activity android:name="com.dante.customview.hencoder.Practice2Activity" />
+        <activity android:name="com.dante.customview.hencoder.Practice3Activity" />
+        <activity android:name="com.dante.customview.hencoder.Practice4Activity" />
+        <activity android:name="com.dante.customview.hencoder.Practice5Activity" />
+        <activity android:name="com.dante.customview.hencoder.Practice6Activity" />
+        <activity android:name="com.dante.customview.hencoder.Practice7Activity" />
+        <activity android:name="com.dante.customview.widget.foldtext.FoldTextViewActivity" />
+        <activity android:name="com.dante.customview.hencoder.layout1.LayoutSquarImageViewActivity" />
+        <activity android:name="com.dante.customview.hencoder.HenCoderActivity" />
+        <activity android:name="com.dante.customview.radarview.RadarViewActivity" />
+        <activity android:name="com.dante.customview.turntableview.TurnTableActivity"></activity>
     </application>
 
 </manifest>

@@ -24,7 +24,7 @@
             android:background="#9c9c9c"
             android:padding="20dp">
 
-            <com.siberiadante.customview.widget.foldtext.SpannableFoldTextView
+            <com.dante.customview.widget.foldtext.SpannableFoldTextView
                 android:id="@+id/text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:background="#9c9c9c"
             android:padding="20dp">
 
-            <com.siberiadante.customview.widget.foldtext.SpannableFoldTextView
+            <com.dante.customview.widget.foldtext.SpannableFoldTextView
                 android:id="@+id/text1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             android:background="#9c9c9c"
             android:padding="20dp">
 
-            <com.siberiadante.customview.widget.foldtext.FoldTextView
+            <com.dante.customview.widget.foldtext.FoldTextView
                 android:id="@+id/text2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             android:background="#9c9c9c"
             android:padding="20dp">
 
-            <com.siberiadante.customview.widget.foldtext.FoldTextView
+            <com.dante.customview.widget.foldtext.FoldTextView
                 android:id="@+id/text3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
