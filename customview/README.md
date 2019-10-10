@@ -1,9 +1,11 @@
 
 ```
 package:
-    hencoder:
+    hencoder:hencoder自定义View学习系列
     radarview:雷达图
     turntableview:转盘
+    widget
+        foldtext:折叠TextView
 ```
 
 
