@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.dante.customview.drawtest.eventdispatch.EventDispatchActivity;
 import com.dante.customview.hencoder.HenCoderActivity;
 import com.dante.customview.hencoder.layout1.LayoutSquarImageViewActivity;
 import com.dante.customview.radarview.RadarViewActivity;
@@ -23,6 +24,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_fold_text).setOnClickListener(this);
         findViewById(R.id.btn_wheel_view).setOnClickListener(this);
         findViewById(R.id.btn_layout1).setOnClickListener(this);
+        findViewById(R.id.btnEventDispatch).setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +44,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_layout1:
                 startActivity(new Intent(this, LayoutSquarImageViewActivity.class));
+                break;
+            case R.id.btnEventDispatch:
+                startActivity(new Intent(this, EventDispatchActivity.class));
                 break;
         }
 
