@@ -12,14 +12,14 @@
             android:id="@+id/durationLabelTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="8dp"
-            android:paddingEnd="16dp"
             android:paddingStart="16dp"
             android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
             android:text="@string/duration"
             android:textSize="16sp" />
 
-        <android.support.v7.widget.AppCompatSeekBar
+        <androidx.appcompat.widget.AppCompatSeekBar
             android:id="@+id/durationSb"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -30,10 +30,10 @@
             android:id="@+id/durationValueTv"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="8dp"
-            android:paddingEnd="16dp"
             android:paddingStart="16dp"
             android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -55,8 +55,8 @@
             android:id="@+id/animateBt"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
             android:layout_margin="8dp"
             android:text="@string/animate"
             android:textSize="16sp" />

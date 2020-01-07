@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.support.v7.widget.AppCompatTextView;
+
 import android.text.Layout;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -16,6 +16,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 import android.view.ViewTreeObserver;
+
+import androidx.appcompat.widget.AppCompatTextView;
+
 
 import com.dante.customview.R;
 

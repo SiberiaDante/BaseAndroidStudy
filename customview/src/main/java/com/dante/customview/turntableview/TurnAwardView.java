@@ -5,13 +5,14 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+
+import androidx.annotation.Nullable;
 
 import com.dante.customview.R;
 import com.dante.customview.turntableview.model.TurnItemModel;
