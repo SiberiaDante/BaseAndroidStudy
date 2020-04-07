@@ -6,6 +6,6 @@ package com.dante.designpattern.factory.simple;
 public class StudyJava implements StudySchool {
     @Override
     public void study() {
-        System.out.print("我是来学习Java的！！！");
+        System.out.println("我是来学习Java的！！！");
     }
 }

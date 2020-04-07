@@ -7,8 +7,8 @@ prototype
 factory
     simple:简单工厂模式
     abstractf:抽象工厂模式
-    
 singleton
+    七种单例模式的写法
     
 ```
 
