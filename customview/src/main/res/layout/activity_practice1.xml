@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".hencoder.Practice1Activity">
 
-    <android.support.design.widget.TabLayout
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/tab_bar_height"
@@ -15,7 +15,7 @@
         app:tabMode="scrollable"
         app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" />
 
-    <androidx.core.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         app:layout_constraintTop_toBottomOf="@id/tabLayout"
         android:layout_width="match_parent"
