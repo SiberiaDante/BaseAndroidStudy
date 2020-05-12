@@ -37,6 +37,7 @@ public class Practice03Scale extends RelativeLayout {
             @Override
             public void onClick(final View v) {
                 // TODO 在这里处理点击事件，通过 View.animate().scaleX/Y() 来让 View 放缩
+                imageView.setScaleX(60);
             }
         });
     }
