@@ -1,1 +1,3 @@
+include ':jetpackdemo'
 include ':app', ':customview', ':designpattern', ':practiceopengl', ':JavaTestLib'
+include ':MediaApp'

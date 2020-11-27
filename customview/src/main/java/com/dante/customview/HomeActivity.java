@@ -26,6 +26,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_wheel_view).setOnClickListener(this);
         findViewById(R.id.btn_layout1).setOnClickListener(this);
         findViewById(R.id.btnEventDispatch).setOnClickListener(this);
+        findViewById(R.id.btnAll).setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +49,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnEventDispatch:
                 startActivity(new Intent(this, EventDispatchActivity.class));
+                break;
+            case R.id.btnAll:
+                
                 break;
         }
 

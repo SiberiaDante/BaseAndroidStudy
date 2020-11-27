@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="CommonAndroidStudy.app" target="1.8" />
+      <module name="CommonAndroidStudy.customview" target="1.8" />
+      <module name="CommonAndroidStudy.designpattern" target="1.8" />
+      <module name="CommonAndroidStudy.jetpackdemo" target="1.8" />
+      <module name="CommonAndroidStudy.MediaApp" target="1.8" />
+      <module name="CommonAndroidStudy.practiceopengl" target="1.8" />
+      <module name="JavaTestLib" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

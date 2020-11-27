@@ -52,6 +52,12 @@
             android:layout_height="wrap_content"
             android:text="事件分发机制"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义案例练习"/>
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

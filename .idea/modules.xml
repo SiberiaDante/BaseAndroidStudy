@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CommonAndroidStudy.iml" filepath="$PROJECT_DIR$/CommonAndroidStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaTestLib/JavaTestLib.iml" filepath="$PROJECT_DIR$/JavaTestLib/JavaTestLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/practiceopengl/practiceopengl.iml" filepath="$PROJECT_DIR$/practiceopengl/practiceopengl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CommonAndroidStudy.iml" filepath="$PROJECT_DIR$/.idea/CommonAndroidStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaTestLib/CommonAndroidStudy.JavaTestLib.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaTestLib/CommonAndroidStudy.JavaTestLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediaApp/CommonAndroidStudy.MediaApp.iml" filepath="$PROJECT_DIR$/.idea/modules/MediaApp/CommonAndroidStudy.MediaApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CommonAndroidStudy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CommonAndroidStudy.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customview/CommonAndroidStudy.customview.iml" filepath="$PROJECT_DIR$/.idea/modules/customview/CommonAndroidStudy.customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/designpattern/CommonAndroidStudy.designpattern.iml" filepath="$PROJECT_DIR$/.idea/modules/designpattern/CommonAndroidStudy.designpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jetpackdemo/CommonAndroidStudy.jetpackdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/jetpackdemo/CommonAndroidStudy.jetpackdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/practiceopengl/CommonAndroidStudy.practiceopengl.iml" filepath="$PROJECT_DIR$/.idea/modules/practiceopengl/CommonAndroidStudy.practiceopengl.iml" />
     </modules>
   </component>
 </project>
